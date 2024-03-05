@@ -25,7 +25,7 @@
     max-width: 400px; 
     }
   /* Animation for top circle */
-  #top-circle{
+  #path{
     animation: color-shift-top 7s infinite;
 }
 
@@ -45,7 +45,7 @@
         }
 
   /* Animation for middle circle */
-  #middle-circle{
+  #path{
     animation: color-shift-middle 7s infinite;
 }
 
@@ -60,7 +60,7 @@
         }
     
   /* Animation for bottom circle */
-  #bottom-circle{
+  #path{
     animation: color-shift-bottom 7s infinite;
 }
 
