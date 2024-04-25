@@ -1,0 +1,80 @@
+@font-face {
+    src: url("./fonts/CondorVariable-VF-Edu.woff2") format("woff2"),
+        url('./fonts/CondorVariable-VF-Edu.ttf') format('truetype');
+        font-family: 'Condor Variable Regular';
+        font-style: normal;
+        font-weight: normal;
+  
+      }
+  
+  
+  body{
+    background-color:rgb(25, 25, 25);
+
+  }
+
+h3{
+    font-size: 6em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+
+
+  .toptop{
+    padding: 100px;
+  }
+
+  .top{
+    color: rgb(190, 153, 97);
+    text-align: center;
+    font-family: 'Condor Variable Regular';
+    /* font-weight: */
+  }
+
+  .top2{
+    color: rgb(190, 153, 97);
+    text-align: left;
+    margin-left: 155px;
+    margin-top: -40px;
+    margin-bottom: 90px;
+    font-family: 'Condor Variable Regular';
+  }
+    .project{
+        font-family: 'Condor Variable Regular';
+        margin-bottom: 80px;
+        margin-top: 40px;
+        margin-left: 280px;
+        color: rgb(190, 153, 97);
+
+    }
+    .basic{
+        font-size: 25px;
+        margin-top: -30px;
+        margin-bottom: -60px;
+        margin-left: 280px;
+        color: rgb(190, 153, 97);
+    }
+
+    .p1{
+        padding: 70px;
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .read{
+        font-size: 25px;
+        margin-bottom: -60px;
+        margin-left: 280px;
+        color: rgb(190, 153, 97)
+
+    }
+  
+  .p2{
+        padding: 70px;
+        text-align: left;  
+        margin-right: 200px;
+        margin-left: 200px;
+  }

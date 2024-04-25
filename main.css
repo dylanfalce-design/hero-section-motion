@@ -1,83 +1,135 @@
   /* Background image in motion, imported as an svg */
-  body{
-    background-color:lightyellow ;
-  }
-
-  .motion-wrapper {
-    background-color: lightyellow;
-    display: grid;
-    /* height: 100%; */
-    place-items: center;
-    position: relative;
-    animation: colorShift 7s infinite;
-  }
-  .motion-text-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: tan;
-    font-size: 50px;
-    width: 80%;
-    }
-    svg{
-    max-width: 400px; 
-    }
-  /* Animation for top circle */
-  #path{
-    animation: color-shift-top 7s infinite;
-}
-
-
-  @keyframes color-shift-top{
-
-        0%, 100%{
-            fill:rgb(44, 212, 201);
-            transform: scale(.5);
-            transform-origin: center;
-            }
-            50%{
-                fill:rgb(13, 190, 107);
-                transform: scale(.8);
-                transform-origin: center;
-            }
-        }
-
-  /* Animation for middle circle */
-  #path{
-    animation: color-shift-middle 7s infinite;
-}
-
-  @keyframes color-shift-middle{
-
-        0%, 100%{
-            fill:rgb(212, 44, 145);
-            }
-            50%{
-                fill:rgb(22, 13, 190);
-            }
-        }
-    
-  /* Animation for bottom circle */
-  #path{
-    animation: color-shift-bottom 7s infinite;
-}
-
-  @keyframes color-shift-bottom{
-
-        0%, 100%{
-            fill:red
-            }
-            50%{
-                fill:rgb(0, 0, 0);
-            }
-        }
-
-/* settings for desktop */
-@media only screen and (min-width: 800px) {
   
-svg{
-      max-width: 300px; /* Adjust maximum width for smaller screens */
+  @font-face {
+    src: url("./fonts/CondorVariable-VF-Edu.woff2") format("woff2"),
+        url('./fonts/CondorVariable-VF-Edu.ttf') format('truetype');
+        font-family: 'Condor Variable Regular';
+        font-style: normal;
+        font-weight: normal;
+  
+      }
+  
+  
+  body{
+    background-color:rgb(25, 25, 25);
+
+  
   }
+  h5{
+    font-weight: 40;
+    font-size: 15em;
   }
+
+
+  .parallax-wrapper {
+    width: 100vw;
+    height:100vh;
+    box-sizing: border-box;
+    color:rgb(2, 150, 150);
+    margin-left: 275px;
+    margin-top: -200px;
+  }
+  .regular-wrapper {
+    z-index: 2;
+    position: relative;
+  }
+
+  .regular-wrapper2 {
+    z-index: 2;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  .parallax-wrapper::before {
+    content:"";
+    width: 100vw;
+    height: 100vh; 
+    z-index: -1;
+    margin-top: -300px;
+  }
+  
+  .design{
+    color: rgb(206, 83, 83);
+    margin-top: -580px;
+    margin-right: 230px;
+    text-align: right;
+    font-weight: 900;
+
+  }
+
+/* Condor design and clock as well as trajan */
+  .content-wrapper {
+    width:100%;
+    display: grid;
+    grid-gap: 10px;
+    padding:0px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "m m m m b b b b b b b b"
+        "m m m m a a a a a a a a"
+        "m m m m a a a a a a a a ";
+  }
+
+
+#Designs{
+color:aqua
+}
+
+
+  .hero{
+    /* grid-area: m;  */
+    background-image: url("images/herosection2.svg");
+    background-size: cover;
+    height:1010px;
+    width:1000px;
+    margin-left: -50px;
+  
+    /* margin-left: 60px; */
+  }
+
+  a{
+
+  text-decoration: none;
+  }
+
+  .hero-text{
+    font-family: 'Condor Variable Regular';
+    Background-size: fill;
+    grid-area: m;
+    color: rgb(225, 205, 151);
+    margin-left: 90px;
+    margin-top: -60px;
+    margin-bottom:20px;
+    height: 1000px;
+    width: 1000px;
+  
+    
+   }
+   
+   .trajan{
+    grid-area: b;
+    background-image: url("images/Trajan.svg"); 
+    background-size: cover;
+    margin-left: -115px;
+    margin-top: -58px;
+    height: 500px;
+    width: 500px;
+
+   }
+
+   .clock{
+    grid-area: a;
+    background-image: url("images/clock.svg");
+    background-size: cover;
+    margin-left: -115px;
+    margin-top: -508px;
+    height:500px;
+    width: 500px;
+   
+    
+    margin-bottom: 20px;
+  
+
+   }
