@@ -8,6 +8,31 @@
         font-weight: normal;
   
       }
+
+      .londrina-solid-thin {
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .londrina-solid-light {
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .londrina-solid-regular {
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .londrina-solid-black {
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
   
   
   body{
@@ -28,6 +53,10 @@
     color:rgb(2, 150, 150);
     margin-left: 260px;
     margin-top: -200px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
   }
   .regular-wrapper {
     z-index: 2;
@@ -54,6 +83,7 @@
     margin-top: -580px;
     margin-right: 230px;
     text-align: right;
+    font-family: "Londrina Solid", sans-serif;
     font-weight: 900;
 
   }
@@ -82,8 +112,8 @@ color:aqua
     /* grid-area: m;  */
     background-image: url("images/herosection2.svg");
     background-size: cover;
-    height:1010px;
-    width:1010px;
+    height:1000px;
+    width:1000px;
   
     /* margin-left: 60px; */
   }
@@ -98,7 +128,6 @@ color:aqua
     Background-size: fill;
     grid-area: m;
     color: rgb(225, 205, 151);
-    margin-left: 90px;
     margin-top: -60px;
     margin-bottom:20px;
     height: 1000px;
@@ -112,9 +141,9 @@ color:aqua
     background-image: url("images/trajan.svg"); 
     background-size: cover;
     margin-left: -115px;
-    margin-top: -58px;
-    height: 500px;
-    width: 500px;
+    margin-top: -57px;
+    height: 502px;
+    width: 502px;
 
    }
 
@@ -123,12 +152,20 @@ color:aqua
     background-image: url("images/clock.svg");
     background-size: cover;
     margin-left: -115px;
-    margin-top: -508px;
-    height:500px;
-    width: 500px;
-   
-    
+    margin-top: -1214px;
+    height:502px;
+    width: 502px;
     margin-bottom: 20px;
-  
-
    }
+
+
+
+/* fooer info and link */
+
+
+  .footer{
+  margin-top: 1600px;
+  text-align: left;
+
+  }
+   
