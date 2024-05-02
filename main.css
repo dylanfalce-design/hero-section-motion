@@ -33,6 +33,7 @@
         font-style: normal;
       }
       
+      
   
   
   body{
@@ -161,11 +162,12 @@ color:aqua
 
 
 /* fooer info and link */
-
+/* copy to footer */
 
   .footer{
   margin-top: 1600px;
   text-align: left;
+
 
   }
    

@@ -4,10 +4,8 @@
         font-family: 'Condor Variable Regular';
         font-style: normal;
         font-weight: black;
-  
       }
-  
-  
+
   body{
     background-color:rgb(25, 25, 25);
 
@@ -17,8 +15,14 @@ h3{
     font-size: 6em;
 }
 
+h5{
+  font-size: 3em;
+}
+
+
 p{
     font-size: 1.2em;
+
 }
 
 
@@ -77,4 +81,53 @@ p{
         text-align: left;  
         margin-right: 200px;
         margin-left: 200px;
+  }
+
+  .condortop{
+    background-image: url("images/heroimagecondortop.svg");
+    background-size: cover; 
+    height: 800px;
+    margin-top: 325px;
+    margin-bottom: 200px;
+  }
+
+  .glyphsandanimation{
+    background-image: url("images/glyphs-condor.svg");
+    background-size: cover; 
+    height: 800px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
+
+  .content-wrapper {
+    width:100%;
+    display: grid;
+    grid-gap: 0px;
+    padding:0px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "k k k k k k l l l l l l"
+        "k k k k k k l l l l l l"
+        "k k k k k k l l l l l l";
+  }
+
+  .pageone{
+    grid-area: k;
+    background-image: url("images/firstpage-condor.svg");
+    background-size: cover;
+    height: 1600px;
+    margin-bottom: 50px;
+    padding: 40px
+
+  
+  }
+  .pagetwo{
+    grid-area: l;
+    background-image: url("images/secondpage-condor.svg");
+    background-size: cover;
+    height: 1600px;
+    margin-bottom: 50px;
+    
   }

@@ -10,7 +10,7 @@ body {
 
 header {
   /* where to set the color of the nav bar */
-    background: rgb(26, 26, 26);
+    background: rgb(25, 25, 25);
     text-align: center;
     top:11px;
     position: fixed;
@@ -28,7 +28,7 @@ nav {
   padding-top:10px;
   top: 100%;
   left: 0;
-  background: rgb(26, 26, 26);
+  background: rgb(25, 25, 25);
   width: 100%;
   transform: scale(1,0);
   transform-origin: top;
