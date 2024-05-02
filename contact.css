@@ -56,6 +56,10 @@ h5{
     font-size: 10em;
   }
 
+a{
+    font-size: 2em;
+}
+
 .parallax-wrapper {
     width: 100vw;
     height:100vh;

@@ -46,10 +46,18 @@ p{
     margin-bottom: 90px;
     font-family: 'Condor Variable Regular';
   }
-    .project{
+  .project1{
+    font-family: 'Condor Variable Regular';
+    margin-bottom: 20px;
+    margin-top: 350px;
+    margin-left: 280px;
+    color: rgb(190, 153, 97);
+
+}
+  .project{
         font-family: 'Condor Variable Regular';
         margin-bottom: 80px;
-        margin-top: 40px;
+        margin-top: 60px;
         margin-left: 280px;
         color: rgb(190, 153, 97);
 
@@ -87,8 +95,8 @@ p{
     background-image: url("images/heroimagecondortop.svg");
     background-size: cover; 
     height: 800px;
-    margin-top: 325px;
-    margin-bottom: 200px;
+    margin-top: 80px;
+    margin-bottom: 100px;
   }
 
   .glyphsandanimation{
@@ -118,7 +126,7 @@ p{
     background-image: url("images/firstpage-condor.svg");
     background-size: cover;
     height: 1600px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     padding: 40px
 
   
@@ -128,6 +136,13 @@ p{
     background-image: url("images/secondpage-condor.svg");
     background-size: cover;
     height: 1600px;
-    margin-bottom: 50px;
-    
+    margin-bottom: 100px;
+
+  }
+  .condorsite{
+    font-family: 'Condor Variable Regular';
+    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-left: 280px;
+    color: rgb(190, 153, 97);
   }

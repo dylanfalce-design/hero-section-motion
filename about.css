@@ -13,8 +13,14 @@ p{
 }
 
 .aboutmeheader{
-    margin-top: 100px;
-    
+    margin-top: 400px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+
 }
 
+.about{
+    margin-left: 200px;
+    margin-right: 200px;
+}
 

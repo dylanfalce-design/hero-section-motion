@@ -94,7 +94,7 @@
 
 /* Condor design and clock as well as trajan */
   .content-wrapper {
-    width:100%;
+    width:0%;
     display: grid;
     grid-gap: 0px;
     padding:0px;
@@ -117,7 +117,7 @@ color:aqua
     background-image: url("images/herosection2.svg");
     background-size: cover;
     align-items: left;
-    height:1500px;
+    height:1000px;
     width:1500px;
   
     /* margin-left: 60px; */
@@ -132,7 +132,7 @@ color:aqua
     grid-area: m;
     color: rgb(225, 205, 151);
     margin-top: -60px;
-    margin-bottom:20px;
+    margin-bottom:60px;
     margin-left: 135px;
     height: 750px;
     width: 750px;
@@ -144,8 +144,8 @@ color:aqua
     grid-area: b;
     background-image: url("images/trajan.svg"); 
     background-size: cover;
-    margin-right: 700px;
-    margin-top: 0px;
+    margin-left: -804px;
+    margin-top: -1290px;
     height: 750px;
     width: 750px;
 
@@ -157,7 +157,7 @@ color:aqua
     background-size: cover;
     height:750px;
     width: 750px;
-  
+    margin-top: -1290px;
  
    }
 
@@ -167,7 +167,6 @@ color:aqua
 /* copy to footer */
 
   .footer{
-  margin-top: 2500px;
-  text-align: left;
+  margin-top: 2000px;
   }
    
