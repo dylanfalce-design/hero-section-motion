@@ -75,13 +75,13 @@
   }
   
   
-  .parallax-wrapper::before {
-    content:"";
-    width: 100vw;
-    height: 100vh; 
-    z-index: -1;
-    margin-top: -300px;
-  }
+  /* .parallax-wrapper::before { */
+    /* content:""; */
+    /* width: 100vw; */
+    /* height: 100vh;  */
+    /* z-index: -1; */
+    /* margin-top: -300px; */
+  /* } */
   
   .design{
     color: rgb(2, 150, 150);
@@ -108,9 +108,9 @@
   }
 
 
-#Designs{
-color:aqua
-}
+/* #designs{ */
+/* color:aqua */
+/* } */
 
 
   .hero{
