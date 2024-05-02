@@ -11,6 +11,7 @@ body {
 header {
   /* where to set the color of the nav bar */
     background: rgb(25, 25, 25);
+    font-family: "Londrina Solid", sans-serif;
     text-align: center;
     top:11px;
     position: fixed;
@@ -29,6 +30,7 @@ nav {
   top: 100%;
   left: 0;
   background: rgb(25, 25, 25);
+  font-family: "Londrina Solid", sans-serif;
   width: 100%;
   transform: scale(1,0);
   transform-origin: top;
