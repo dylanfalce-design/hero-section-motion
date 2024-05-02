@@ -64,12 +64,14 @@ a{
     width: 100vw;
     height:100vh;
     box-sizing: border-box;
-    color:rgb(2, 150, 150);
-    margin-left: 260px;
-    margin-top: 0px;
+    color:rgb(206, 83, 83);
+    margin-left: 100px;
+    padding: 175px;
+    margin-top: -150px;
     font-family: "Londrina Solid", sans-serif;
     font-weight: 900;
     font-style: normal;
+  
 
   }
   .regular-wrapper {
@@ -92,9 +94,10 @@ a{
     margin-top: 300px;
 
   }
-  
- .linkedin{
-    color:aqua;
- }
+
+  .contact{
+    margin-left: 150px;
+    margin-top: 120px;
+  }
 
 

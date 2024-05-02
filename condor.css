@@ -104,7 +104,7 @@ p{
     background-size: cover; 
     height: 800px;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
   }
 
 
@@ -140,9 +140,7 @@ p{
 
   }
   .condorsite{
-    font-family: 'Condor Variable Regular';
     margin-bottom: 80px;
     margin-top: 60px;
-    margin-left: 280px;
     color: rgb(190, 153, 97);
   }

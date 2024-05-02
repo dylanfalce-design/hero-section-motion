@@ -3,7 +3,7 @@
         ' Effective Communicator',
         ' Leadership',
         ' Problem Solving',
-        ' Reliable',
+        ' Reliability',
         
         ], i = 0;
     setInterval(function(){
