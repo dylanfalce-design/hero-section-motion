@@ -45,6 +45,9 @@
     font-weight: 40;
     font-size: 15em;
   }
+  h6{
+    font-size: 25em;
+  }
 
 
   .parallax-wrapper {
@@ -98,9 +101,9 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto;
     grid-template-areas: 
-        "m m m m b b b b b b b b"
-        "m m m m a a a a a a a a"
-        "m m m m a a a a a a a a ";
+        "m m m m m m m m m m m m"
+        "m m m m m m m m m m m m"
+        "a a a a a a b b b b b b";
   }
 
 
@@ -113,26 +116,26 @@ color:aqua
     /* grid-area: m;  */
     background-image: url("images/herosection2.svg");
     background-size: cover;
-    height:1000px;
-    width:1000px;
+    align-items: left;
+    height:1500px;
+    width:1500px;
   
     /* margin-left: 60px; */
   }
 
   a{
-
   text-decoration: none;
   }
 
   .hero-text{
     font-family: 'Condor Variable Regular';
-    Background-size: fill;
     grid-area: m;
     color: rgb(225, 205, 151);
     margin-top: -60px;
     margin-bottom:20px;
-    height: 1000px;
-    width: 1000px;
+    margin-left: 135px;
+    height: 750px;
+    width: 750px;
   
     
    }
@@ -141,10 +144,10 @@ color:aqua
     grid-area: b;
     background-image: url("images/trajan.svg"); 
     background-size: cover;
-    margin-left: -115px;
-    margin-top: -57px;
-    height: 502px;
-    width: 502px;
+    margin-right: 700px;
+    margin-top: 0px;
+    height: 750px;
+    width: 750px;
 
    }
 
@@ -152,11 +155,10 @@ color:aqua
     grid-area: a;
     background-image: url("images/clock.svg");
     background-size: cover;
-    margin-left: -115px;
-    margin-top: -1214px;
-    height:502px;
-    width: 502px;
-    margin-bottom: 20px;
+    height:750px;
+    width: 750px;
+  
+ 
    }
 
 
@@ -165,9 +167,7 @@ color:aqua
 /* copy to footer */
 
   .footer{
-  margin-top: 1600px;
+  margin-top: 2500px;
   text-align: left;
-
-
   }
    
