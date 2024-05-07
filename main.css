@@ -115,11 +115,12 @@
 
   .hero{
     /* grid-area: m;  */
-    background-image: url("images/herosection2.svg");
+    background-image: url("images/condor2.svg");
+    grid-area: m;
     background-size: cover;
     align-items: left;
     margin-top: 60px;
-    height:1000px;
+    height:1500px;
     width:1500px;
   
     /* margin-left: 60px; */
@@ -129,25 +130,10 @@
   text-decoration: none;
   }
 
-  .hero-text{
-    font-family: 'Condor Variable Regular';
-    grid-area: m;
-    color: rgb(225, 205, 151);
-    margin-top: 60px;
-    margin-bottom:60px;
-    margin-left: 135px;
-    height: 750px;
-    width: 750px;
-  
-    
-   }
-   
    .trajan{
     grid-area: b;
-    background-image: url("images/trajan.svg"); 
     background-size: cover;
     margin-left: -804px;
-    margin-top: -1290px;
     height: 750px;
     width: 750px;
 
@@ -155,15 +141,14 @@
 
    .clock{
     grid-area: a;
-    background-image: url("images/clock.svg");
     background-size: cover;
     height:750px;
     width: 750px;
-    margin-top: -1290px;
+ 
  
    }
 
-
+  
 
 /* fooer info and link */
 /* copy to footer */
