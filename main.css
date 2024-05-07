@@ -115,7 +115,6 @@
 
   .hero{
     /* grid-area: m;  */
-    background-image: url("images/condor2.svg");
     grid-area: m;
     background-size: cover;
     align-items: left;
@@ -133,7 +132,7 @@
    .trajan{
     grid-area: b;
     background-size: cover;
-    margin-left: -804px;
+   
     height: 750px;
     width: 750px;
 
